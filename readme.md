@@ -21,6 +21,7 @@ For this assignment, we were asked to "hack" into a live webservice using some o
 #
 <h2>Exploit in Red: IDOR</h2>
 On the public site under the section "Finding a salesperson", when you click on a sales person it gives the sales person info back, however the url has a queryStringParameter that denotes the id of a salesperson. Specifically, there is one that's missing from the list and it's id #10. When putting it into the other 2 sites, it just takes us back to the sales person page however on the Red, it loads a page that isn't public.
+<img src="idor.gif" />
 
 #
 <h2>Exploit in Blue: Session Hijacking/Fixation</h2>
