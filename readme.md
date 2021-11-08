@@ -37,6 +37,7 @@ On the public site under a sales person, if you input a single quote, you get a 
 Depending on the username inputted. If you inspect the element where it tells you "Login was unsuccessful", the class of the span element will tell you if it "failed" or if it was a "failure". When putting in a valid username, it says "failure" so we can denote that failure means the username exists
 
 This is not good as someone could use that information to get a valid admin username then use something like SQLi to login as an admin.
+
 <img src="username_enumeration.gif">
 
 #
