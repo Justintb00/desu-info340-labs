@@ -10,12 +10,12 @@ The service that we will be using as our honey pot is the <b>Modern Honey Networ
 
 In terms of cloud provider, the guide followed <b>Google Cloud Platform</b> so I decided to follow that. Upon completion, this can also be easily setup in AWS (Amazon Web Services) or Microsoft's Azure Cloud Platform. Below will be GIFs on how I deployed the Modern Honey Network (Admin Console), The Dioanaea HoneyPot Deployment, and a screenshot of the database (copy of the source is included in the repository).
 
-# MHN Admin Deployment
+# <h2>MHN Admin Deployment</h2>
 <br />
 
-# Dioanaea HoneyPot Deployment
+# <h2>Dioanaea HoneyPot Deployment</h2>
 <br />
 
-# Screenshot of the Database Deployment
+# <h2>Screenshot of the Database Deployment</h2>
 <img src='' height="auto" width="720"><br />
 <a href="#">Link to the database json file</a>
