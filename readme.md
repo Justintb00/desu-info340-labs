@@ -17,5 +17,5 @@ In terms of cloud provider, the guide followed <b>Google Cloud Platform</b> so I
 <br />
 
 # <h2>Screenshot of the Database Deployment</h2>
-<img src='' height="auto" width="720"><br />
-<a href="#">Link to the database json file</a>
+<br />
+<a href="/session.json">Link to the database json file</a>
