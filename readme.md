@@ -24,10 +24,8 @@ Deploying the HoneyPot itself was very similar to the process of deploying the M
 After I attacked the HoneyPot, I backed up the database using the command provided.
 
 Here are some gifs of attacking the honeypot/backing up the database.
-
+<br />
+<a href="/session.json">Link to the database json file</a>
 # <h2>Additional Honeypot Deployment</h2>
 <code>For this one, I will be deploying to AWS because I don't want to do the same thing again</code>
 
-
-<br />
-<a href="/session.json">Link to the database json file</a>
