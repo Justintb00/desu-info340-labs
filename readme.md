@@ -1,5 +1,13 @@
 # codepath_homework
 
+<style>
+	img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+</style>
+
 <img src='/DESU-Logo.png' height="auto" width="720"/>
 
 <h2>Assignment 10/11 - HoneyPot</h2>
@@ -16,7 +24,7 @@ For Deploying the MHN Admin, I first had to create a VM instance with the ubuntu
 Here are some gifs of some of the steps
 
 <figure>
-	<img src="/img/start-instance-mhn.gif" height="auto" width="600" style="display:block;margin-left:auto;margin-right:auto">
+	<img src="/img/start-instance-mhn.gif" height="auto" width="50%">
 	<figcaption>Starting the MHN Admin VM Instance (<b>Google Cloud</b>)</figcaption>
 </figure>
 <br />
