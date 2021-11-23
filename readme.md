@@ -44,6 +44,17 @@ The following are some gifs of the process.
 		<br/>
 		<span>SSHing into Honeypot Instance</span>	
 </p>
+<p align="center">
+		<img src="/img/nmap-kali.gif" height="auto" width="80%">
+		<br/>
+		<span>NMap Attack on HoneyPot</span>	
+</p>
+<p align="center">
+		<img src="/img/proof-nmap-attack.gif" height="auto" width="80%">
+		<br/>
+		<span>NMap Attack (Result)</span>	
+</p>
+
 
 # <h2>Database Backup</h2>
 After I attacked the HoneyPot, I backed up the database using the command provided.
@@ -53,4 +64,16 @@ Here are some gifs of attacking the honeypot/backing up the database.
 <a href="/session.json">Link to the database json file</a>
 # <h2>Additional Honeypot Deployment</h2>
 <code>For this one, I will be deploying to AWS because I didn't want to do the same thing again</code>
+I followed the same process as above, except with the AWS convention. The results are below.
+#
+<p align="center">
+		<img src="#" height="auto" width="80%">
+		<br/>
+		<span>Creating the HoneyPot VM Instance</span>	
+</p>
+<p align="center">
+		<img src="/img/honeypots.png" height="auto" width="80%">
+		<br/>
+		<span>MHN-Admin HoneyPot instances</span>	
+</p>
 
