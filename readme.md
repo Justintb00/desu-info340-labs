@@ -13,7 +13,12 @@ In terms of cloud provider, the guide followed <b>Google Cloud Platform</b> so I
 # <h2>MHN Admin Deployment</h2>
 For Deploying the MHN Admin, I first had to create a VM instance with the ubuntu image. Also, I added some firewall rules so that the application would run the way it's supposed to. Specifically, I had to add the ports <b>80</b> (HTTP), <b>3000</b> (Honeypot), and <b>10000</b> (HoneyPot Feeds) because they allowed for certain parts of the application to be accessed from anywhere. Once that was complete, I ssh'd in and ran the install script to run the app. Once it was completed, I was able to access the app (with my admin credentials) via the public ip of my instance.
 
-Here are some gifs of some of the steps 
+Here are some gifs of some of the steps
+
+<figure style="margin:auto;width:50%">
+	<img src="img/start-instance-mhn-admin.gif" height="auto" width="600">
+	<figcaption>Starting the MHN Admin VM Instance (<b>Google Cloud</b>)</figcaption>
+</figure>
 <br />
 
 # <h2>Dioanaea HoneyPot Deployment</h2>
