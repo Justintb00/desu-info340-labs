@@ -63,7 +63,7 @@ Here are some gifs of attacking the honeypot/backing up the database.
 <br />
 <a href="/session.json">Link to the database json file</a>
 # <h2>Additional Honeypot Deployment</h2>
-<code>For this one, I will be deploying to AWS because I didn't want to do the same thing again</code><br/>
+<code><b>For this one, I will be deploying to AWS because I didn't want to do the same thing again</b></code><br/>
 I followed the same process as above, except with the AWS convention. The results are below.
 #
 <p align="center">
