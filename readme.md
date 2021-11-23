@@ -19,7 +19,16 @@ Here are some gifs of some of the steps
 		<br/>
 		<span>Starting the MHN VM instance (<b>Google Cloud</b>)</span>	
 </p>
-<br />
+<p align="center">
+		<img src="/img/ssh-into-mhn-admin.gif" height="auto" width="80%">
+		<br/>
+		<span>SSHing into VM</span>	
+</p>
+<p align="center">
+		<img src="/img/logging-in-mhn-admin.gif" height="auto" width="80%">
+		<br/>
+		<span>Logging into MHN Admin</span>	
+</p>
 
 # <h2>Dioanaea HoneyPot Deployment</h2>
 Deploying the HoneyPot itself was very similar to the process of deploying the MHN Admin (Deploy the VM, add firewall rules etc.). The differences this time was we were allowing all TCP/UDP ports and we deployed the command given from the MHN Admin onto the HoneyPot VM in order to see who is hacking our HoneyPot on the MHN Admin side.
