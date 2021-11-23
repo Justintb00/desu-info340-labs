@@ -1,13 +1,5 @@
 # codepath_homework
 
-<style>
-	img {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-	}
-</style>
-
 <img src='/DESU-Logo.png' height="auto" width="720"/>
 
 <h2>Assignment 10/11 - HoneyPot</h2>
@@ -22,11 +14,12 @@ In terms of cloud provider, the guide followed <b>Google Cloud Platform</b> so I
 For Deploying the MHN Admin, I first had to create a VM instance with the ubuntu image. Also, I added some firewall rules so that the application would run the way it's supposed to. Specifically, I had to add the ports <b>80</b> (HTTP), <b>3000</b> (Honeypot), and <b>10000</b> (HoneyPot Feeds) because they allowed for certain parts of the application to be accessed from anywhere. Once that was complete, I ssh'd in and ran the install script to run the app. Once it was completed, I was able to access the app (with my admin credentials) via the public ip of my instance.
 
 Here are some gifs of some of the steps
-
-<figure>
-	<img src="/img/start-instance-mhn.gif" height="auto" width="50%">
-	<figcaption>Starting the MHN Admin VM Instance (<b>Google Cloud</b>)</figcaption>
-</figure>
+<p align='center'>
+	<figure>
+		<img src="/img/start-instance-mhn.gif" height="auto" width="80%">
+		<figcaption>Starting the MHN Admin VM Instance (<b>Google Cloud</b>)</figcaption>
+	</figure>
+</p>
 <br />
 
 # <h2>Dioanaea HoneyPot Deployment</h2>
