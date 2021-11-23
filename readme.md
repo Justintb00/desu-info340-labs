@@ -32,7 +32,18 @@ Here are some gifs of some of the steps
 
 # <h2>Dioanaea HoneyPot Deployment</h2>
 Deploying the HoneyPot itself was very similar to the process of deploying the MHN Admin (Deploy the VM, add firewall rules etc.). The differences this time was we were allowing all TCP/UDP ports and we deployed the command given from the MHN Admin onto the HoneyPot VM in order to see who is hacking our HoneyPot on the MHN Admin side.
-<br />
+
+The following are some gifs of the process.
+<p align="center">
+		<img src="/img/start-instance-honeypot.gif" height="auto" width="80%">
+		<br/>
+		<span>Starting the Honeypot VM instance (<b>Google Cloud</b>)</span>	
+</p>
+<p align="center">
+		<img src="/img/ssh-into-honeypot.gif" height="auto" width="80%">
+		<br/>
+		<span>SSHing into Honeypot Instance</span>	
+</p>
 
 # <h2>Database Backup</h2>
 After I attacked the HoneyPot, I backed up the database using the command provided.
@@ -41,5 +52,5 @@ Here are some gifs of attacking the honeypot/backing up the database.
 <br />
 <a href="/session.json">Link to the database json file</a>
 # <h2>Additional Honeypot Deployment</h2>
-<code>For this one, I will be deploying to AWS because I don't want to do the same thing again</code>
+<code>For this one, I will be deploying to AWS because I didn't want to do the same thing again</code>
 
