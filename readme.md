@@ -16,6 +16,7 @@ For Deploying the MHN Admin, I first had to create a VM instance with the ubuntu
 Here are some gifs of some of the steps
 <p align="center">
 		<img src="/img/start-instance-mhn.gif" height="auto" width="80%">
+		<br/>
 		<span>Starting the MHN VM instance (<b>Google Cloud</b>)</span>	
 </p>
 <br />
