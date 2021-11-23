@@ -67,7 +67,7 @@ Here are some gifs of attacking the honeypot/backing up the database.
 I followed the same process as above, except with the AWS convention. The results are below.
 #
 <p align="center">
-		<img src="#" height="auto" width="80%">
+		<img src="/img/deploying-second-honeypot-aws.gif" height="auto" width="80%">
 		<br/>
 		<span>Creating the HoneyPot VM Instance</span>	
 </p>
