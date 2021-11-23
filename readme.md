@@ -34,6 +34,7 @@ Here are some gifs of some of the steps
 Deploying the HoneyPot itself was very similar to the process of deploying the MHN Admin (Deploy the VM, add firewall rules etc.). The differences this time was we were allowing all TCP/UDP ports and we deployed the command given from the MHN Admin onto the HoneyPot VM in order to see who is hacking our HoneyPot on the MHN Admin side.
 
 The following are some gifs of the process.
+#
 <p align="center">
 		<img src="/img/start-instance-honeypot.gif" height="auto" width="80%">
 		<br/>
@@ -54,7 +55,6 @@ The following are some gifs of the process.
 		<br/>
 		<span>NMap Attack (Result)</span>	
 </p>
-
 
 # <h2>Database Backup</h2>
 After I attacked the HoneyPot, I backed up the database using the command provided.
