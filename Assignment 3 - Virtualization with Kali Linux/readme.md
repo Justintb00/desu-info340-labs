@@ -1,6 +1,6 @@
 # codepath_homework
 
-<img src='/DESU-Logo.png' />
+<img src='../DESU-Logo.png' />
 
 <h2>Assignment 3 - Kali Linux Virtualization</h2>
 
