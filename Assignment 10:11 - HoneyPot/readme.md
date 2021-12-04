@@ -16,17 +16,17 @@ For Deploying the MHN Admin, I first had to create a VM instance with the ubuntu
 Here are some gifs of some of the steps
 #
 <p align="center">
-		<img src="/img/start-instance-mhn.gif" height="auto" width="80%">
+		<img src="./img/start-instance-mhn.gif" height="auto" width="80%">
 		<br/>
 		<span>Starting the MHN VM instance (<b>Google Cloud</b>)</span>	
 </p>
 <p align="center">
-		<img src="/img/ssh-into-mhn-admin.gif" height="auto" width="80%">
+		<img src="./img/ssh-into-mhn-admin.gif" height="auto" width="80%">
 		<br/>
 		<span>SSHing into VM</span>	
 </p>
 <p align="center">
-		<img src="/img/logging-in-mhn-admin.gif" height="auto" width="80%">
+		<img src="./img/logging-in-mhn-admin.gif" height="auto" width="80%">
 		<br/>
 		<span>Logging into MHN Admin</span>	
 </p>
@@ -37,22 +37,22 @@ Deploying the HoneyPot itself was very similar to the process of deploying the M
 The following are some gifs of the process.
 #
 <p align="center">
-		<img src="/img/start-instance-honeypot.gif" height="auto" width="80%">
+		<img src="./img/start-instance-honeypot.gif" height="auto" width="80%">
 		<br/>
 		<span>Starting the Honeypot VM instance (<b>Google Cloud</b>)</span>	
 </p>
 <p align="center">
-		<img src="/img/ssh-into-honeypot.gif" height="auto" width="80%">
+		<img src="./img/ssh-into-honeypot.gif" height="auto" width="80%">
 		<br/>
 		<span>SSHing into Honeypot Instance</span>	
 </p>
 <p align="center">
-		<img src="/img/nmap-kali.gif" height="auto" width="80%">
+		<img src="./img/nmap-kali.gif" height="auto" width="80%">
 		<br/>
 		<span>NMap Attack on HoneyPot</span>	
 </p>
 <p align="center">
-		<img src="/img/proof-nmap-attack.gif" height="auto" width="80%">
+		<img src="./img/proof-nmap-attack.gif" height="auto" width="80%">
 		<br/>
 		<span>NMap Attack (Result)</span>	
 </p>
@@ -62,18 +62,18 @@ After I attacked the HoneyPot, I backed up the database using the command provid
 
 Here are some gifs of attacking the honeypot/backing up the database.
 <br />
-<a href="/session.json">Link to the database json file</a>
+<a href="./session.json">Link to the database json file</a>
 # <h2>Additional Honeypot Deployment</h2>
 <code><b>For this one, I will be deploying to AWS because I didn't want to do the same thing again</b></code><br/>
 I followed the same process as above, except with the AWS convention. The results are below.
 #
 <p align="center">
-		<img src="/img/deploying-second-honeypot-aws.gif" height="auto" width="80%">
+		<img src="./img/deploying-second-honeypot-aws.gif" height="auto" width="80%">
 		<br/>
 		<span>Creating the HoneyPot VM Instance</span>	
 </p>
 <p align="center">
-		<img src="/img/honeypots.png" height="auto" width="80%">
+		<img src="./img/honeypots.png" height="auto" width="80%">
 		<br/>
 		<span>MHN-Admin HoneyPot instances</span>	
 </p>
